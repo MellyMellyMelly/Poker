@@ -13,8 +13,8 @@ namespace Base.Factory
         private string[] tableName;
         public HandFactory(Record[] records, int name)
         {
-            connectionString = "server=localhost;userid=root;password=root;port=3306;database=poker;SslMode=None";
-            tableName = new string[]{"two","three","four","five","six","seven","eight","nine","ten","eleven","twelve"};
+            connectionString = "FIGURE IT OUT YOURSELF";
+            tableName = new string[]{"FIGURE IT OUT YOURSELF"};
             var all = FindAll(tableName[name]).ToList();
             HandData item = new HandData();
             if(all.Count == 0)

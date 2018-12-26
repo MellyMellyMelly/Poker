@@ -1,6 +1,7 @@
 # Ignore obj folders
 obj/
 bin/
+.vscode/
 
 #Ignore sql files
 *.sql

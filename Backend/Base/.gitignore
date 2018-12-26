@@ -1,3 +1,6 @@
+# Ignore Factory folder
+Factory/
+
 # Ignore obj folders
 obj/
 bin/

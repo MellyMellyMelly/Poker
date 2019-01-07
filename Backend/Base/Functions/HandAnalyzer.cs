@@ -12,10 +12,6 @@ namespace Base.Functions
             while(breaker < 9 && count < 4)
             {
                 for(int i = 1; i < hand.Length; i++){
-                    // if(breaker == 9)
-                    // {
-                    //     return false;
-                    // }
                     breaker++;
                     if(hand[i-1].value == hand[i].value-1)
                     {

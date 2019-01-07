@@ -45,32 +45,35 @@ namespace Base.Functions
                     }
                 }
             }
-            // if((int)max[0] == 0){
-            //     System.Console.WriteLine("High Card");
-            // }
-            // else if((int)max[0] == 4){
-            //     System.Console.WriteLine("Pair");
-            // }
-            // else if((int)max[0] == 8){
-            //     System.Console.WriteLine("Two Pair");
-            // }
-            // else if((int)max[0] == 31){
-            //     System.Console.WriteLine("Three of a Kind");
-            // }
-            // else if((int)max[0] == 32){
-            //     System.Console.WriteLine("Straight");
-            // }
-            // else if((int)max[0] == 33){
-            //     System.Console.WriteLine("Flush");
-            // }
-            // else if((int)max[0] == 35){
-            //     System.Console.WriteLine("Full House");
-            // }
-            // else if((int)max[0] == 287){
-            //     System.Console.WriteLine("Four of a Kind");
-            // }
-            // else{
-            //     System.Console.WriteLine("Straight Flush");
+            // switch((int)max[0])
+            // {
+            //     case 0:
+            //         System.Console.WriteLine("High Card");
+            //         break;
+            //     case 4:
+            //         System.Console.WriteLine("Pair");
+            //         break;
+            //     case 8:
+            //         System.Console.WriteLine("Two Pair");
+            //         break;
+            //     case 31:
+            //         System.Console.WriteLine("Three of a Kind");
+            //         break;
+            //     case 32:
+            //         System.Console.WriteLine("Straight");
+            //         break;
+            //     case 33:
+            //         System.Console.WriteLine("Flush");
+            //         break;
+            //     case 35:
+            //         System.Console.WriteLine("Full House");
+            //         break;
+            //     case 287:
+            //         System.Console.WriteLine("Four of a Kind");
+            //         break;
+            //     default:
+            //         System.Console.WriteLine("Straight Flush");
+            //         break;
             // }
             return max;
         }

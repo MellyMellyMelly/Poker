@@ -14,15 +14,15 @@ namespace Base.Objects
             name = _name;
             hand = cards;
             result = PokerFunctions.Combinatorics(PreGame.DealCards(hand,board));
-            // IShowCard();
+            // ShowCard();
         }
-        public void IShowCard()
+        public void ShowCard()
         {
             System.Console.WriteLine($"THESE ARE THE CARDS BELONG TO PLAYER {name}");
             System.Console.WriteLine($"This card is the {hand[0].rank} of {hand[0].suit}");
             System.Console.WriteLine($"This card is the {hand[1].rank} of {hand[1].suit}");
         }
-        public void ISetTieCondition(int[] hey)
+        public void SetTieCondition(int[] hey)
         {
             tiebreaker = hey;
         }

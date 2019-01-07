@@ -1,6 +1,3 @@
-# Ignore Factory folder
-Factory/
-
 # Ignore obj,bin,vscode folders
 obj/
 bin/

@@ -16,7 +16,7 @@ namespace Base.BreakTie
                 {
                     values[i] = result[i].value;
                 }
-                winner.ISetTieCondition(values);
+                winner.SetTieCondition(values);
             }
             return Tie.ParseTies(winners,losers);
         }

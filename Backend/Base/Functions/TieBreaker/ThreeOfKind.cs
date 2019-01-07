@@ -32,7 +32,7 @@ namespace Base.BreakTie
                         index++;
                     }
                 }
-                winner.ISetTieCondition(hot);
+                winner.SetTieCondition(hot);
             }
             return Tie.ParseTies(winners,losers);
         }

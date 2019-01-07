@@ -12,7 +12,7 @@ namespace Base
     {
         static void Main(string[] args)
         {
-            Timer t = new Timer(TimerCallback, null, 0, 2700000);
+            Timer t = new Timer(TimerCallback, null, 0, 600000);
             Console.ReadLine();
         }
         private static void TimerCallback(Object h)
@@ -23,20 +23,22 @@ namespace Base
             int total = 2;
             while(total < 3)
             {
-                Record[] recordKeeper = Database.Create(new Record[1326]);
+                Record[] recordKeeper = Database.Create(new Record[169]);
+                HandTotal survey = new HandTotal();
                 for(int i = 0; i < 51; i++)
                 {
                     for(int j = i+1; j < 52; j++)
                     {
-                        for(int count = 0; count < 1; count++)
+                        for(int count = 0; count < 100; count++)
                         {
                             int[] specificHand = new int[]{i,j};
                             Object[] overall = GamePlay.PlayPoker(total, deck, specificHand);
-                            recordKeeper = Database.Update(recordKeeper,overall);
+                            recordKeeper = Database.Update(recordKeeper,overall, survey);
                         }
                     }
                 }
                 HandFactory blog = new HandFactory(recordKeeper, total-2);
+                TotalFactory goals = new TotalFactory(survey, total);
                 total++;
             }
             System.Console.WriteLine($"{DateTime.Now.ToString()}");

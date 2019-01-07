@@ -1,12 +1,20 @@
 using System;
+using System.Collections.Generic;
+using Base.Models;
 namespace Base.Interfaces
 {
     public interface IShowCard
     {
-        void IShowCard();
+        void ShowCard();
     }
     public interface ISetTieCondition
     {
-        void ISetTieCondition(int[] hey);
+        void SetTieCondition(int[] hey);
+    }
+    public interface IRecordFunctions
+    {
+        void IncreaseWin();
+        void IncreaseGames();
+        void Update(List<HandData> all, int i);
     }
 }

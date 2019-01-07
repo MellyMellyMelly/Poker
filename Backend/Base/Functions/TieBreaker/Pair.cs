@@ -34,7 +34,7 @@ namespace Base.BreakTie
                     }
                     i++;
                 }
-                winner.ISetTieCondition(values);
+                winner.SetTieCondition(values);
             }
             return Tie.ParseTies(winners,losers);
         }

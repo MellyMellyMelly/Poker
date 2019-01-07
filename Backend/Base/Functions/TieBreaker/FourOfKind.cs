@@ -11,7 +11,7 @@ namespace Base.BreakTie
             foreach(var winner in winners)
             {
                 Card[] result = (Card[])winner.result[1];
-                winner.ISetTieCondition(new int[]{result[2].value});
+                winner.SetTieCondition(new int[]{result[2].value});
             }
             return Tie.ParseTies(winners,losers);
         }

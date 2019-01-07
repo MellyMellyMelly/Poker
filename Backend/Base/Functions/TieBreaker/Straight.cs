@@ -20,7 +20,7 @@ namespace Base.BreakTie
                 {
                     hot = new int[]{result[4].value};
                 }
-                winner.ISetTieCondition(hot);
+                winner.SetTieCondition(hot);
             }
             return Tie.ParseTies(winners,losers);
         }

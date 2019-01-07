@@ -1,6 +1,5 @@
 using System;
 using Base.Interfaces;
-using Base.Functions;
 namespace Base.Objects
 {
     public class Board: IShowCard
@@ -16,9 +15,9 @@ namespace Base.Objects
                 // System.Console.WriteLine(communityArray[index].cardNum);
                 index++;
             }
-            // IShowCard();
+            // ShowCard();
         }
-        public void IShowCard()
+        public void ShowCard()
         {
             System.Console.WriteLine($"THESE ARE THE COMMUNITY CARDS");
             System.Console.WriteLine($"This card is the {hand[0].rank} of {hand[0].suit}");

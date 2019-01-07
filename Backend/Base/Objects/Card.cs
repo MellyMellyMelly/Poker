@@ -1,5 +1,4 @@
 using System;
-using Base.Interfaces;
 namespace Base.Objects
 {
     public class Card

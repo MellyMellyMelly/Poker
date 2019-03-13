@@ -1,0 +1,11 @@
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\bin\Debug\netcoreapp2.1\HandLanding.deps.json
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\bin\Debug\netcoreapp2.1\HandLanding.runtimeconfig.json
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\bin\Debug\netcoreapp2.1\HandLanding.runtimeconfig.dev.json
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\bin\Debug\netcoreapp2.1\HandLanding.dll
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\bin\Debug\netcoreapp2.1\HandLanding.pdb
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\obj\Debug\netcoreapp2.1\HandLanding.csprojAssemblyReference.cache
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\obj\Debug\netcoreapp2.1\HandLanding.csproj.CoreCompileInputs.cache
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\obj\Debug\netcoreapp2.1\HandLanding.AssemblyInfoInputs.cache
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\obj\Debug\netcoreapp2.1\HandLanding.AssemblyInfo.cs
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\obj\Debug\netcoreapp2.1\HandLanding.dll
+C:\Users\Melly2\Documents\Personal\Poker Project\Backend\HandLanding\obj\Debug\netcoreapp2.1\HandLanding.pdb

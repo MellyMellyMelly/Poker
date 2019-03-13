@@ -14,7 +14,7 @@ namespace Base.Factory
         private string name;
         internal TotalFactory(HandTotal survey, int playerTotal)
         {
-            connectionString = "server=localhost;userid=root;password=root;port=3306;database=poker2;SslMode=None";
+            connectionString = "server=localhost;userid=root;password=root;port=3306;database=poker;SslMode=None";
             name = "wins";
             var all = FindAll(name, playerTotal).FirstOrDefault();
             if(all == null)
